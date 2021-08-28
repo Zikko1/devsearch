@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',default=True,cast=bool)
 
-ALLOWED_HOSTS = ['devsearchuk.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['devsearch-env.eba-3ugpwq5r.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -133,8 +133,8 @@ WSGI_APPLICATION = 'devsearch.wsgi.application'
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #         'NAME': 'devsearch',
 #         'USER': 'zikko',
-#         'PASSWORD':'',
-#         'HOST':'devsearch',
+#         'PASSWORD':'Success4$123',
+#         'HOST':'database-1.cepyfnfomgxo.us-east-2.rds.amazonaws.com',
 #         'PORT':'5432',
 #     }
 # }
@@ -208,7 +208,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-#
+
 # AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 # AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
 # AWS_STORAGE_BUCKET_NAME = 'devsearth-bucket'
