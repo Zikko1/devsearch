@@ -133,8 +133,8 @@ WSGI_APPLICATION = 'devsearch.wsgi.application'
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #         'NAME': 'devsearch',
 #         'USER': 'zikko',
-#         'PASSWORD':'Success4$123',
-#         'HOST':'database-1.cepyfnfomgxo.us-east-2.rds.amazonaws.com',
+#         'PASSWORD':'',
+#         'HOST':'',
 #         'PORT':'5432',
 #     }
 # }
